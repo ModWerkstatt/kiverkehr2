@@ -1,0 +1,246 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.8985, 0.85872, 1.44895, },
+		bbMin = { -1.76779, -0.85872, -0.00211, },
+	},
+	collider = {
+		params = {
+
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+			    children = {
+				    {
+                        _meshId = 1,
+						materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rumpf.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                    {
+					    _meshId = 2,
+				        materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/achse.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.09773, 0, 0.33508, 1, },
+				    },
+				    {
+					    _meshId = 3,
+						materials = { "vehicle/car/kuebelwagen/fenster.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/fenster.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 4,
+				        materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rad_links.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.30652, 0.69032, 0.33508, 1, },
+				    },
+				    {
+					    _meshId = 5,
+				        materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rad_rechts.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.30652, -0.69032, 0.33508, 1, },
+				    },
+                    {
+					    _meshId = 6,
+				        materials = { "vehicle/car/kuebelwagen/licht.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/licht.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 7,
+				        materials = { "vehicle/car/kuebelwagen/licht.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rucklicht.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 8,
+				        materials = { "vehicle/car/kuebelwagen/licht_bremse.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rucklicht.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1, },
+				    },
+			    },
+			    name = "RootNode",
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+		    static = false,
+		    visibleFrom = 0,
+		    visibleTo = 100,
+		},
+        {
+			node = {
+			    children = {
+				    {
+                        _meshId = 1,
+						materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rumpf_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                    {
+					    _meshId = 2,
+				        materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/achse.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.09773, 0, 0.33508, 1, },
+				    },
+				    {
+					    _meshId = 3,
+						materials = { "vehicle/car/kuebelwagen/fenster.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/fenster.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 4,
+				        materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rad_links.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.30652, 0.69032, 0.33508, 1, },
+				    },
+				    {
+					    _meshId = 5,
+				        materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rad_rechts.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.30652, -0.69032, 0.33508, 1, },
+				    },
+			    },
+			    name = "RootNode",
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+		    static = false,
+		    visibleFrom = 100,
+		    visibleTo = 250,
+		},
+        {
+			node = {
+			    children = {
+				    {
+                        _meshId = 1,
+						materials = { "vehicle/car/kuebelwagen/rumpf.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/rumpf_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 3,
+						materials = { "vehicle/car/kuebelwagen/fenster.mtl", },
+					    mesh = "vehicle/car/kuebelwagen/fenster.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+			    },
+			    name = "RootNode",
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+		    static = false,
+		    visibleFrom = 250,
+		    visibleTo = 600,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 1939,
+			yearTo = 1950,
+		},
+		car = { },
+		colorConfig = {
+			configs = {
+				{
+					{ 0.61960798501968, 0.40788298845291, 0.038877300918102, },
+				},
+				{
+					{ 0.6117650270462, 0.13196900486946, 0.052779700607061, },
+				},
+				{
+					{ 0.080415196716785, 0.23733800649643, 0.24705900251865, },
+				},
+				{
+					{ 0.18909600377083, 0.35799399018288, 0.45490199327469, },
+				},
+				{
+					{ 0.39607799053192, 0.22311100363731, 0.13823899626732, },
+				},
+				{
+					{ 0.27504798769951, 0.28627398610115, 0.28429800271988, },
+				},
+			},
+		},
+		roadVehicle = {
+			engine = {
+				power = 40,
+				tractiveEffort = 6.5,
+				type = "DIESEL",
+			},
+			configs = {
+				{
+					axles = { "vehicle/car/kuebelwagen/achse.msh", },
+					blinkLightsLeft = {  },
+					blinkLightsRight = {  },
+					brakeLights = { 8 },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = { 6 },
+					steeringParts = { },
+					wheels = { "vehicle/car/kuebelwagen/rad_rechts.msh", "vehicle/car/kuebelwagen/rad_links.msh", },
+				},
+                {
+					axles = { "vehicle/car/kuebelwagen/achse.msh", },
+					blinkLightsLeft = { },
+					blinkLightsRight = { },
+					brakeLights = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = {  },
+					steeringParts = { },
+				},
+                {
+					axles = { },
+					blinkLightsLeft = { },
+					blinkLightsRight = { },
+					brakeLights = { },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = {  },
+					steeringParts = { },
+				},
+			},
+			power = 70,
+			soundSet = { name = "car_old", },
+			topSpeed = 27.7777777778,
+			tractiveEffort = 10.5,
+			weight = 1.1,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "BUS",
+			seats = {
+				{
+					animation = "driving",
+					crew = true,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3, 0.3, 0.25, 1, },
+				},
+			},
+		},
+	},
+	version = 1,
+}
+end
