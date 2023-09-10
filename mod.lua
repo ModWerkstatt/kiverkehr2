@@ -8,11 +8,11 @@ return {
 		description = _("mod_desc"),
 		authors = {
 		    {
-		        name = "Bandion",
+		        name = "ModWerkstatt",
 		        role = "CREATOR",
 		    },
 		},
-		tags = { "europe", "Car", },
+		tags = { "europe", "car", "ki", "ai", "traffic" },
 		tfnetId = { },
 		minGameVersion = 0,
 		dependencies = { },
@@ -20,9 +20,9 @@ return {
 	},
 	options = {
 	},
-	
+
 	runFn = function (settings)
-	
+
 	end
 	}
 end
