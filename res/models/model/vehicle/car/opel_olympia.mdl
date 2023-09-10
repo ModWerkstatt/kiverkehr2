@@ -1,0 +1,285 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3, 1, 2, },
+		bbMin = { -4, -1, 0, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+			children = {
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rumpf_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/innen_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},	
+				{
+					materials = { "vehicle/car/opel_olympia/fenster.mtl", },
+					mesh = "vehicle/car/opel_olympia/glas_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rad_links_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.574, 0.7442, 0.30918, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rad_rechts_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.574, -0.7442, 0.30918, 1.0, },
+				},	
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/heckachse_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.92113, 0, 0.30918, 1.0, },
+				},		
+				{
+					materials = { "vehicle/car/opel_olympia/licht.mtl", },
+					mesh = "vehicle/car/opel_olympia/licht_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},			
+				{
+					materials = { "vehicle/car/opel_olympia/licht_hell.mtl", },
+					mesh = "vehicle/car/opel_olympia/bremse_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},			
+				{
+					materials = { "vehicle/car/opel_olympia/licht_hell.mtl", },
+					mesh = "vehicle/car/opel_olympia/blinker_links_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},			
+				{
+					materials = { "vehicle/car/opel_olympia/licht_hell.mtl", },
+					mesh = "vehicle/car/opel_olympia/blinker_rechts_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},	
+			}, 
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+			children = {
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rumpf_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/innen_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},	
+				{
+					materials = { "vehicle/car/opel_olympia/fenster.mtl", },
+					mesh = "vehicle/car/opel_olympia/glas_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rad_links_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.574, 0.7442, 0.30918, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rad_rechts_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.574, -0.7442, 0.30918, 1.0, },
+				},	
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/heckachse_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.92113, 0, 0.30918, 1.0, },
+				},		
+				{
+					materials = { "vehicle/car/opel_olympia/licht.mtl", },
+					mesh = "vehicle/car/opel_olympia/licht_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},			
+				{
+					materials = { "vehicle/car/opel_olympia/licht_hell.mtl", },
+					mesh = "vehicle/car/opel_olympia/bremse_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},			
+				{
+					materials = { "vehicle/car/opel_olympia/licht_hell.mtl", },
+					mesh = "vehicle/car/opel_olympia/blinker_links_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},			
+				{
+					materials = { "vehicle/car/opel_olympia/licht_hell.mtl", },
+					mesh = "vehicle/car/opel_olympia/blinker_rechts_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+			}, 
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 250,
+		},
+		{
+			node = {
+			children = {	
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rumpf_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rad_links_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.574, 0.7442, 0.30918, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/rad_rechts_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.574, -0.7442, 0.30918, 1.0, },
+				},	
+				{
+					materials = { "vehicle/car/opel_olympia/rumpf.mtl", },
+					mesh = "vehicle/car/opel_olympia/heckachse_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.92113, 0, 0.30918, 1.0, },
+				},
+			}, 
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 1952,
+			yearTo = 1970,
+		},
+		car = { },
+		colorConfig = {
+			configs = {
+				{
+					{ 0.4735, 0.5841, 0.6724, },
+				},
+				{
+					{ 0.2961, 0.2918, 0.2705, },
+				},
+				{
+					{ 0.0027, 0.0976, 0.2502, },
+				},
+				{
+					{ 0.2789, 0.0030, 0.0030, },
+				},
+				{
+					{ 0.4397, 0.0742, 0.0075, },
+				},
+				{
+					{ 0.0100, 0.0115, 0.0124, },
+				},
+				{
+					{ 0.0062, 0.0495, 0.0125, },
+				},
+			},
+		},
+		roadVehicle = {
+			engine = {
+				power = 51,
+				tractiveEffort = 6.5,
+				type = "DIESEL",
+			},
+
+			configs = {
+				{
+					axles = { "vehicle/car/opel_olympia/heckachse_lod0.msh", },
+					blinkLightsLeft = { 9 },
+					blinkLightsRight = { 10 },
+					brakeLights = { 8 },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = { 7 },
+					steeringParts = { },
+					wheels = {  "vehicle/car/opel_olympia/rad_rechts_lod0.msh", "vehicle/car/opel_olympia/rad_links_lod0.msh", },
+				},
+				{
+					axles = { "vehicle/car/opel_olympia/heckachse_lod1.msh", },
+					blinkLightsLeft = { 9 },
+					blinkLightsRight = { 10 },
+					brakeLights = { 8 },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = { 7 },
+					steeringParts = { },
+					wheels = {  "vehicle/car/opel_olympia/rad_rechts_lod1.msh", "vehicle/car/opel_olympia/rad_links_lod1.msh", },
+				},
+				{
+					axles = { "vehicle/car/opel_olympia/heckachse_lod2.msh", },
+					blinkLightsLeft = {  },
+					blinkLightsRight = {  },
+					brakeLights = {  },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = {  },
+					steeringParts = { },
+					wheels = { "vehicle/car/opel_olympia/rad_rechts_lod2.msh", "vehicle/car/opel_olympia/rad_links_lod2.msh",  },
+				},
+			},
+			soundSet = {
+				horn = "",
+				name = "car_modern",
+			},
+			topSpeed = 32,777777,
+			tractiveEffort = 5.0,
+			weight = 0.92,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "BUS",
+			seats = {
+				{
+					animation = "driving",
+					crew = true,
+					forward = true,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.22, 0.12, 1, },
+				},
+			},
+		},
+	},
+	version = 1,
+}
+end

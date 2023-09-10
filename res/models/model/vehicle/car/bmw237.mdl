@@ -1,0 +1,300 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3, 1, 2, },
+		bbMin = { -4, -1, 0, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+			children = {
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rumpf_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/innen_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/fenster.mtl", },
+					mesh = "vehicle/car/bmw237/fenster_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/achse_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.4155, 0, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rad_links_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.3512, 0.6434, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rad_rechts_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.3512, -0.6434, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht.mtl", },
+					mesh = "vehicle/car/bmw237/licht_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht_hell.mtl", },
+					mesh = "vehicle/car/bmw237/blinker_rechts_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht_hell.mtl", },
+					mesh = "vehicle/car/bmw237/blinker_links_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+			}, 
+				name = "RootNode",
+				transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+		},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+		{
+			node = {
+			children = {
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rumpf_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/innen_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/fenster.mtl", },
+					mesh = "vehicle/car/bmw237/fenster_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/achse_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.4155, 0, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rad_links_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.3512, 0.6434, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rad_rechts_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.3512, -0.6434, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht.mtl", },
+					mesh = "vehicle/car/bmw237/licht_lod1.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht_hell.mtl", },
+					mesh = "vehicle/car/bmw237/blinker_rechts_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht_hell.mtl", },
+					mesh = "vehicle/car/bmw237/blinker_links_lod0.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+			}, 
+				name = "RootNode",
+				transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+		},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 250,
+		},
+		{
+			node = {
+			children = {
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rumpf_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/innen_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/fenster.mtl", },
+					mesh = "vehicle/car/bmw237/fenster_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/achse_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.4155, 0, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rad_links_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.3512, 0.6434, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/rumpf.mtl", },
+					mesh = "vehicle/car/bmw237/rad_rechts_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.3512, -0.6434, 0.34608, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht.mtl", },
+					mesh = "vehicle/car/bmw237/licht_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht_hell.mtl", },
+					mesh = "vehicle/car/bmw237/blinker_rechts_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+				{
+					materials = { "vehicle/car/bmw237/licht_hell.mtl", },
+					mesh = "vehicle/car/bmw237/blinker_links_lod2.msh",
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+				},
+			}, 
+				name = "RootNode",
+				transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
+		},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 1937,
+			yearTo = 1945,
+		},
+		car = { },
+		colorConfig = {
+			configs = {
+				{
+					{ 0.597, 0.0212, 0.0356, },
+				},
+				{
+					{ 0.075, 0.083, 0.847, },
+				},
+				{
+					{ 0.594, 0.807, 0.733, },
+				},
+				{
+					{ 0.034, 1.000, 0.957, },
+				},
+				{
+					{ 1.000, 0.796, 0.123, },
+				},
+				{
+					{ 0.984, 0.923, 0.306, },
+				},
+				{
+					{ 0.000, 0.130, 0.035, },
+				},
+			},
+		},
+		roadVehicle = {
+			engine = {
+				power = 55,
+				tractiveEffort = 6.9,
+				type = "DIESEL",
+			},
+
+			configs = {
+				{
+					axles = { "vehicle/car/bmw237/achse_lod0.msh", },
+					blinkLightsLeft = { 9 },
+					blinkLightsRight = { 8 },
+					brakeLights = {  },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = {  },
+					steeringParts = { },
+					wheels = { "vehicle/car/bmw237/rad_rechts_lod0.msh", "vehicle/car/bmw237/rad_links_lod0.msh",  },
+				},
+				{
+					axles = { "vehicle/car/bmw237/achse_lod1.msh", },
+					blinkLightsLeft = { 9 },
+					blinkLightsRight = { 8 },
+					brakeLights = {  },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = {  },
+					steeringParts = { },
+					wheels = { "vehicle/car/bmw237/rad_rechts_lod1.msh", "vehicle/car/bmw237/rad_links_lod1.msh",  },
+				},
+				{
+					axles = { "vehicle/car/bmw237/achse_lod2.msh", },
+					blinkLightsLeft = { 9 },
+					blinkLightsRight = { 8 },
+					brakeLights = {  },
+					fakeBogies = {
+						{
+							group = 0,
+							offset = 0,
+							position = 0,
+						},
+					},
+					headLights = {  },
+					steeringParts = { },
+					wheels = { "vehicle/car/bmw237/rad_rechts_lod2.msh", "vehicle/car/bmw237/rad_links_lod2.msh",  },
+				},
+			},
+			soundSet = {
+				horn = "",
+				name = "car_modern",
+			},
+			topSpeed = 34,72222222,
+			tractiveEffort = 5.0,
+			weight = 0.92,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "BUS",
+			seats = {
+				{
+					animation = "driving",
+					crew = true,
+					forward = true,
+					group = 0,
+					transf = { 0.9, 0, 0, 0, 0, 0.9, 0, 0, 0, 0, 0.9, 0, -0.45, 0.32, 0.22, 1, },
+				},
+			},
+		},
+	},
+	version = 1,
+}
+end
