@@ -9,7 +9,7 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/car/opel_olympia/rumpf_albedo_opacity.dds",
+			fileName = "models/vehicle/car/opel_olympia/rumpf_albedo.dds",
 			redGreen = true,
 			type = "TWOD",
 		},

@@ -9,7 +9,7 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/car/bmw237/rumpf_albedo_opacity.dds",
+			fileName = "models/vehicle/car/bmw237/rumpf_albedo.dds",
 			redGreen = true,
 			type = "TWOD",
 		},
