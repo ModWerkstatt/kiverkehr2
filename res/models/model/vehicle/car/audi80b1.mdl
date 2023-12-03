@@ -6,7 +6,7 @@ return {
 	},
 	collider = {
 		params = {
-			
+
 		},
 		type = "MESH",
 	},
@@ -32,7 +32,7 @@ return {
 				{
 					materials = { "vehicle/car/audi80b1/rumpf.mtl", },
 					mesh = "vehicle/car/audi80b1/achse_lod0.msh",
-					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.19757, 0, 0.34608, 1.0, },
+					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.19757, 0, 0.287409, 1.0, },
 				},
 				{
 					materials = { "vehicle/car/audi80b1/rumpf.mtl", },
@@ -64,7 +64,7 @@ return {
 					mesh = "vehicle/car/audi80b1/blinker_links_lod0.msh",
 					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
 				},
-			}, 
+			},
 				name = "RootNode",
 				transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
 		},
@@ -125,7 +125,7 @@ return {
 					mesh = "vehicle/car/audi80b1/blinker_links_lod0.msh",
 					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
 				},
-			}, 
+			},
 				name = "RootNode",
 				transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
 		},
@@ -186,7 +186,7 @@ return {
 					mesh = "vehicle/car/audi80b1/blinker_links_lod2.msh",
 					transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
 				},
-			}, 
+			},
 				name = "RootNode",
 				transf = { 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1.0, },
 		},
